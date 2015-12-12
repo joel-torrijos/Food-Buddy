@@ -1,0 +1,106 @@
+body {
+	font-family: "Calibri Light", Candara, sans-serif;
+}
+ul{
+	margin: 10px auto 10px auto;
+	padding: 3px;
+	border-top: 2px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+li {
+	display: inline;
+	margin: 2px;
+}
+input.text {
+	color: #5A5854;
+	background-color: #FAFAFA;
+	border: 1px solid #BDBDBD;
+	border-radius: 5px;
+	padding: 3px;	
+}
+input.sub_submit {
+	color: #7D7D7D;
+	background-color: #FFFFFF;
+	border: 1px solid #7D7D7D;
+	border-radius: 5px;
+	padding: 5px;
+	float: left;
+	margin: 3% 0% 0% 1.6%;
+}
+input.submit, button {
+	text-transform: uppercase;
+	color: #5a5854;
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	padding: 5px;
+	width: 19.45%;
+}
+input.submit:hover, input.sub_submit:hover, button:hover {
+	color: #FAFAFA !important;
+	background-color: #343434 !important;
+}
+button.even, button.odd {
+	width: 60% !important;
+}
+table.list {
+	float: left;
+	width: 60%;
+	min-width: 50%;
+	max-width: 80%;
+	margin: 0.8%;
+}
+th, td {
+	padding: 0.5% 0.5% 0.5% 1%;
+}
+th {
+	text-transform: uppercase;
+	letter-spacing:	0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999999;
+	text-align: left;
+}
+tr.even, button.even {
+	background-color: #EFEFEF;
+}
+tr:hover {
+	color: #ECECEC;
+	background-color: #7B7B7B;	
+}
+p.notif{
+	float: right;
+	width: 34%;
+	margin-right: 2.5%;
+	margin-top: 0.5%;
+	padding: 0.4% 0.5% 0.7% 0.5%;
+}
+fieldset{
+	float: right;
+	width: 32%;
+	margin-right: 2.5%;
+	padding: 0.4% 0.5% 0.7% 0.5%;
+	border-radius: 10px;
+}
+th.money, td.money {
+	text-align: right;
+}
+select {
+	margin: 0.8% 0.8% 0.8% 0.1%;
+	padding: 1%;
+	background-color: #FAFAFA;
+	color: #5A5854;
+	border-radius: 10px;
+	width: 42%;
+	overflow: scroll;
+}
+label.in {
+	margin: 0.8% 0.5% 0.8% 0.1%;
+	padding: 0.3% 0% 0.3% 2%;
+	float: left;
+	width: 45%;	
+}
+select, input.text, div.rad {
+	margin: 0.8% 0.5% 0.8% 0.1% !important;
+	padding: 1% !important;
+}

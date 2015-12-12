@@ -1,0 +1,264 @@
+h1, legend, table
+{
+	text-align: center;
+	font-family:  tahoma;
+	color: white;
+}
+p, fieldset, label
+{
+	font-family:  tahoma;
+	color: white;
+}
+body, td.ignore
+{
+	font-family: tahoma;
+	background-color: rgba(3, 10, 71, 1);
+}
+ul.buttons
+{
+	margin: 10px auto 10px auto;
+	padding: 3px;
+}
+li
+{
+	display: inline;
+	margin: 2px;
+}
+input.text
+{
+	color: #5A5854;
+	background-color: #FAFAFA;
+	border: 1px solid #BDBDBD;
+	border-radius: 5px;
+	padding: 3px;	
+}
+input.sub_submit
+{
+	color: #7D7D7D;
+	background-color: #FFFFFF;
+	border: 1px solid #7D7D7D;
+	border-radius: 5px;
+	padding: 5px;
+	float: left;
+	margin: 3% 0% 0% 1.6%;
+}
+input.submit, button
+{
+	text-transform: uppercase;
+	color: #5a5854;
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 10px;
+	width: 15%;
+}
+input.submit:hover, input.sub_submit:hover, button:hover
+{
+	color: #FAFAFA !important;
+	background-color: #343434 !important;
+}
+button.even, button.odd
+{
+	width: 60% !important;
+}
+table.list
+{
+	width: 60%;
+	min-width: 50%;
+	max-width: 80%;
+	margin: 0px auto;
+	float: left;
+}
+th, td
+{
+	padding: 0.5% 0.5% 0.5% 0.5%;	
+}
+th
+{
+	text-transform: uppercase;
+	letter-spacing:	0.1em;
+	font-size: 90%;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+}
+tr.even, th.even, td.even
+{
+	color: #111111;
+	background-color: #EFEFEF;
+}
+tr.odd, th.odd, td.odd
+{
+	color: #111111;
+	background-color: rgba(41, 171, 203, 1);
+}
+tr:hover
+{
+	color: #ECECEC;
+	background-color: #7B7B7B;	
+}
+p.notif
+{
+	
+	width: 34%;
+	margin-right: 2.5%;
+	margin-top: 0.5%;
+	float: right;
+	padding: 0.4% 0.5% 0.7% 0.5%;
+}
+fieldset
+{
+	width: 35%;
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	border-radius: 10px;
+}
+td.number
+{
+	text-align: right;
+}
+select
+{
+	background-color: #FAFAFA;
+	color: #5A5854;
+	border-radius: 10px;
+	overflow: scroll;
+}
+label.in
+{
+	margin: 0.8% 0.5% 0.8% 0.1%;
+	padding: 0.3% 0% 0.3% 2%;
+	float: left;
+	width: 45%;	
+}
+select, input.text, div.rad
+{
+	margin: 0.8% 0.5% 0.8% 0.1% !important;
+	padding: 1% !important;
+}
+table, fieldset.creation, fieldset.long
+{
+	margin: 0px auto;
+}
+button.tb
+{
+	width: 100%;
+	height: 100%;
+}
+fieldset.long
+{
+	width: 40%;
+}
+li.home
+{
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+}
+a:link
+{
+	color: white;
+	text-decoration: none;
+}
+div.navi
+{
+	margin: 70px -10px auto -10px;
+	padding: 0 0.5% 0.5% 0.5%;
+	position: fixed;
+	background-color: rgba(102, 102, 255, 1);
+	width: 99.3%;
+	height: 40px;
+	text-align: center;
+}
+div.bar
+{
+	padding: 0 0.5% 0.5% 0.5%;
+	margin: -10px -10px auto -10px;
+	position: fixed;
+	background-color: rgba(102, 102 , 255, 1);
+	width: 99.3%;
+	height: 78px;
+}
+div.empty
+{
+	background-color: rgba(3, 10, 71, 1);
+	height: 118px;
+}	
+p.logout
+{
+	text-align: right;
+	float:right;
+}
+table
+{
+	text-align: left;
+}
+div.center
+{
+	text-align: center;
+}
+select.mall_list
+{
+	margin: 0px auto;
+}
+h2
+{
+	text-align: center;
+	font-family:  tahoma;
+	color: white;
+	font-size: 50px;
+}
+fieldset.notice
+{
+	float: right;
+}
+table.special
+{
+	margin: 0px auto;
+}
+table.special
+{
+	margin: 0px auto;
+}
+table.account
+{
+	width: 20%;
+}
+div.promo
+{
+	text-align: center;
+	margin: 0px auto;
+	width: 500px;
+}
+p.rights
+{
+	text-align: center;
+	color: black;
+	bottom: 5px;
+}
+h2
+{
+	font-family: "Brush Script MT";
+}
+img.logo
+{
+	width: 70px;
+	height: 70px;
+	margin-top: 10px;
+	margin-left: 48%;
+	margin-right: 50%;
+	display: block;
+}
+img.login
+{
+	margin-left: 40%;
+	margin-right: 50%;
+}
+p.details
+{
+	float: left;
+	text-align: left;
+}
+p.rights
+{
+	color: grey;
+	font-size: 13px;
+}
